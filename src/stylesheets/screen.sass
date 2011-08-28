@@ -1,0 +1,120 @@
+@import compass/css3
+$canvaswidth: 900
+$black: #000
+$white: #fdf9f0
+$blue: #005d8d
+$green: #b4c2a9
+$brown: #292621
+$yellow: #ebd077
+$textcolor: #87756b
+$pageshadow: #999
+$textpadding: 20
+$textareawidth: ( $canvaswidth / 2 ) - ( $textpadding * 2 ) - (2)
+html
+	cursor: default
+body
+	color: $textcolor
+	font:
+		family: 'Open Sans', monaco, Verdana, sans-serif
+		size: 10pt
+	background:
+		color: $brown
+.header1
+	font:
+		family: 'Open Sans', Arial
+		size: 24px
+		weight: bolder
+	display: block
+	margin: 0
+	padding: 0
+header
+	padding: 
+		top: 10px
+		bottom: 10px
+		left: 20px
+	color: $yellow
+	background:
+		color: $brown
+	h1
+		@extend .header1
+		color: $yellow
+		+text-shadow(#000 1px 2px)
+	small
+		display: block
+		padding: 0
+		margin: 0
+			top: -1px
+		font:
+			size: 11px
+			weight: thin
+		+text-shadow($black 0 -1px)
+		color: #998d7d
+content 
+	h2
+		@extend .header1
+		color: $yellow
+		font:
+			size: 18px
+		padding: 10px
+			left: 20px
+		float: left
+		+text-shadow($black 0 1px)
+container
+	display: block
+	width: $canvaswidth + px
+	height: 700px
+	padding: 10px
+	border: 5px solid $white
+	position: absolute
+	left: 50%
+	margin:
+		left: $canvaswidth * .5 * -1 + px
+	background: #87756b
+	+box-shadow($black 0 2px 10px)
+
+
+	.tab
+		display: block
+		float: left
+
+	.textfield
+		border: 1px solid #e9e3d7
+		width: $textareawidth + px
+		background:
+			color: #e9e3d7
+		height: 500px
+		display: block
+		padding: $textpadding + px
+		resize: none
+		outline: none
+		overflow: hidden
+		color: #87756b
+		font:
+			family: 'Volkhov', Arial, sans
+			size: 14px
+			style: italic
+		z-index: 100
+	#textinput
+		border:
+			right: none
+		background:
+			color: $white
+	#textoutput:disabled
+		color: #888
+		background: 
+			color: #e9e3d7
+
+footer
+	clear: both
+	display: block
+	padding: 10px
+	color: $white
+	font:
+		size: 10px
+	+text-shadow($black 0 1px)
+	a
+		color: $white
+		text-decoration: none
+
+
+

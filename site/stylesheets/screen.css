@@ -1,0 +1,121 @@
+/* line 13 */
+html {
+  cursor: default;
+}
+
+/* line 15 */
+body {
+  color: #87756b;
+  font-family: "Open Sans", monaco, Verdana, sans-serif;
+  font-size: 10pt;
+  background-color: #292621;
+}
+
+/* line 22 */
+.header1, header h1, content h2 {
+  font-family: "Open Sans", Arial;
+  font-size: 24px;
+  font-weight: bolder;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 30 */
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #ebd077;
+  background-color: #292621;
+}
+/* line 38 */
+header h1 {
+  color: #ebd077;
+  text-shadow: black 1px 2px;
+}
+/* line 42 */
+header small {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-top: -1px;
+  font-size: 11px;
+  font-weight: thin;
+  text-shadow: black 0 -1px;
+  color: #998d7d;
+}
+
+/* line 53 */
+content h2 {
+  color: #ebd077;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 20px;
+  float: left;
+  text-shadow: black 0 1px;
+}
+
+/* line 62 */
+container {
+  display: block;
+  width: 900px;
+  height: 700px;
+  padding: 10px;
+  border: 5px solid #fdf9f0;
+  position: absolute;
+  left: 50%;
+  margin-left: -450px;
+  background: #87756b;
+  -moz-box-shadow: black 0 2px 10px;
+  -webkit-box-shadow: black 0 2px 10px;
+  -o-box-shadow: black 0 2px 10px;
+  box-shadow: black 0 2px 10px;
+}
+/* line 76 */
+container .tab {
+  display: block;
+  float: left;
+}
+/* line 80 */
+container .textfield {
+  border: 1px solid #e9e3d7;
+  width: 408px;
+  background-color: #e9e3d7;
+  height: 500px;
+  display: block;
+  padding: 20px;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+  color: #87756b;
+  font-family: "Volkhov", Arial, sans;
+  font-size: 14px;
+  font-style: italic;
+  z-index: 100;
+}
+/* line 97 */
+container #textinput {
+  border-right: none;
+  background-color: #fdf9f0;
+}
+/* line 102 */
+container #textoutput:disabled {
+  color: #888888;
+  background-color: #e9e3d7;
+}
+
+/* line 107 */
+footer {
+  clear: both;
+  display: block;
+  padding: 10px;
+  color: #fdf9f0;
+  font-size: 10px;
+  text-shadow: black 0 1px;
+}
+/* line 115 */
+footer a {
+  color: #fdf9f0;
+  text-decoration: none;
+}
