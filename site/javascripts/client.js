@@ -93,6 +93,6 @@
       TranslatorView.prototype.render = function() {};
       return TranslatorView;
     })();
-    return app = new TranslatorView;
+    app = new TranslatorView;
   });
 }).call(this);

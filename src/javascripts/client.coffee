@@ -64,4 +64,4 @@ $(document).ready ->
 		render: () ->
 
 	app = new TranslatorView
-	#$('container').autoalign('center middle')
+	return

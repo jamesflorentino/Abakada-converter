@@ -1,19 +1,21 @@
 /* line 13 */
 html {
   cursor: default;
+  height: 100%;
 }
 
-/* line 15 */
+/* line 16 */
 body {
   color: #87756b;
-  font-family: "Open Sans", monaco, Verdana, sans-serif;
+  font-family: "open sans", monaco, verdana, sans-serif;
   font-size: 10pt;
   background-color: #292621;
+  height: 100%;
 }
 
-/* line 22 */
-.header1, header h1, content h2 {
-  font-family: "Open Sans", Arial;
+/* line 24 */
+.header1, header h1, h2 {
+  font-family: "open sans", arial;
   font-size: 24px;
   font-weight: bolder;
   display: block;
@@ -21,20 +23,21 @@ body {
   padding: 0;
 }
 
-/* line 30 */
+/* line 32 */
 header {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   color: #ebd077;
+  border-radius: 3px;
   background-color: #292621;
 }
-/* line 38 */
+/* line 42 */
 header h1 {
   color: #ebd077;
   text-shadow: black 1px 2px;
 }
-/* line 42 */
+/* line 46 */
 header small {
   display: block;
   padding: 0;
@@ -46,8 +49,8 @@ header small {
   color: #998d7d;
 }
 
-/* line 53 */
-content h2 {
+/* line 56 */
+h2 {
   color: #ebd077;
   font-size: 18px;
   padding: 10px;
@@ -56,17 +59,15 @@ content h2 {
   text-shadow: black 0 1px;
 }
 
-/* line 62 */
+/* line 65 */
 container {
   display: block;
   width: 900px;
-  height: 780px;
+  min-height: 780px;
   padding: 10px;
-  border: 5px solid #fdf9f0;
-  position: absolute;
-  left: 50%;
-  margin-left: -450px;
   background: #87756b;
+  margin: auto;
+  margin-top: 40px;
   -moz-box-shadow: black 0 2px 10px;
   -webkit-box-shadow: black 0 2px 10px;
   -o-box-shadow: black 0 2px 10px;
@@ -120,8 +121,20 @@ footer {
 footer a {
   color: #ebd077;
   text-decoration: none;
+  -moz-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -moz-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
-/* line 120 */
+/* line 123 */
 footer a:hover {
   color: #fdf9f0;
   background-color: black;
@@ -132,7 +145,35 @@ footer a:hover {
   margin-left: -3px;
   margin-right: -3px;
 }
-/* line 133 */
+/* line 137 */
 footer li {
   display: block;
+}
+
+/* line 140 */
+#facebook_stream {
+  width: 500px;
+  margin-top: 50px;
+  padding: 10px;
+  background: #fdf9f0;
+}
+
+/* line 147 */
+footnotes {
+  font-size: 10px;
+  color: #2d2a25;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  text-shadow: #544b3e 0 1px;
+  width: 900px;
+  display: block;
+  margin-left: -460px;
+  padding-top: 90px;
+  text-align: right;
+}
+/* line 155 */
+footnotes a {
+  color: inherit;
+  text-decoration: none;
 }
