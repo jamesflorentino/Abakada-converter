@@ -60,7 +60,7 @@ content h2 {
 container {
   display: block;
   width: 900px;
-  height: 700px;
+  height: 780px;
   padding: 10px;
   border: 5px solid #fdf9f0;
   position: absolute;
@@ -98,24 +98,41 @@ container .textfield {
 container #textinput {
   border-right: none;
   background-color: #fdf9f0;
+  clear: both;
 }
-/* line 102 */
+/* line 103 */
 container #textoutput:disabled {
+  clear: both;
   color: #888888;
   background-color: #e9e3d7;
 }
 
-/* line 107 */
+/* line 109 */
 footer {
   clear: both;
   display: block;
   padding: 10px;
   color: #fdf9f0;
-  font-size: 10px;
+  font-size: 11px;
   text-shadow: black 0 1px;
 }
-/* line 115 */
+/* line 117 */
 footer a {
-  color: #fdf9f0;
+  color: #ebd077;
   text-decoration: none;
+}
+/* line 120 */
+footer a:hover {
+  color: #fdf9f0;
+  background-color: black;
+  border-radius: 3px;
+  border-bottom: 1px solid #ebd077;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+/* line 133 */
+footer li {
+  display: block;
 }

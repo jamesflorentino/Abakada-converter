@@ -62,7 +62,7 @@ content
 container
 	display: block
 	width: $canvaswidth + px
-	height: 700px
+	height: 780px
 	padding: 10px
 	border: 5px solid $white
 	position: absolute
@@ -99,7 +99,9 @@ container
 			right: none
 		background:
 			color: $white
+		clear: both
 	#textoutput:disabled
+		clear: both
 		color: #888
 		background: 
 			color: #e9e3d7
@@ -110,11 +112,25 @@ footer
 	padding: 10px
 	color: $white
 	font:
-		size: 10px
+		size: 11px
 	+text-shadow($black 0 1px)
 	a
-		color: $white
+		color: $yellow
 		text-decoration: none
-
+	a:hover
+		color: $white
+		background:
+			color: $black
+		border:
+			radius: 3px
+			bottom: 1px solid $yellow
+		padding:
+			left: 3px
+			right: 3px
+		margin:
+			left: -3px
+			right: -3px
+	li
+		display: block
 
 

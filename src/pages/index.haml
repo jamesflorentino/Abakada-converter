@@ -5,12 +5,31 @@
 		
 	%content
 		%div.tab
-			%h2 Your texts
+			%h2 Ang iyong gustong sabihin
 			%label
 				%textarea#textinput.textfield Magtype ng kahit ano
 		%div.tab
-			%h2 Converted
+			%h2 Ang kinalabasan ng iyong sinabi
 			%label
 				%textarea#textoutput.textfield 
 	%footer
-		%span Maraming Salamat kina Rey Amio at Mervin Malonzo sa kanilang kontribusyon ng mga Pilipinong salita sa applikasyong eto. Mabuhay tayong lahat!
+		%div 
+			Maraming Salamat kina 
+			%a{:href => "http://reyamio.com", :target => "_blank"} Rey Amio
+			at 
+			%a{:href => "http://www.mervinmalonzo.com/", :target => "_blank"} Mervin Malonzo
+			%span sa kanilang kontribusyon ng mga Pilipinong salita sa aplikasyong eto. 
+		%div
+			%span Kung nais niyo pong gamitin ang source code, ma-dodownload nyo po eto sa 
+			%a{:href => "https://github.com/jamesflorentino/Abakada-converter" } link na eto
+		%div
+			%span Inilikha gamit ang mga kagamitan na eto:
+			%li 
+				= link_to 'Backbone.js', 'http://documentcloud.github.com/backbone/'
+			%li 
+				= link_to 'CoffeeScript', 'http://jashkenas.github.com/coffee-script/'
+			%li
+				= link_to 'HAML', 'http://haml-lang.com/'
+			%li 
+				= link_to 'SASS', 'http://sass-lang.com/'
+				
