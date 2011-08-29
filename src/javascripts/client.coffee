@@ -9,32 +9,32 @@ $(document).ready ->
 
 		setDictionary: () ->
 			@set dictionary:
-				'a':  'anito'
-				'b':  'bathala'
-				'c':  'chorva'
-				'd':  'diwata'
-				'e':  'engkanto'
-				'f':  'florante'
-				'g':  'ganda'
-				'h':  'halimaw'
-				'i':  'ita'
-				'j':  'jose'
-				'k':  'kapre'
-				'l':  'lam-ang'
-				'm':  'manananggal'
-				'n':  'nipa'
-				'o':  'otap'
-				'p':  'papaitan'
-				'q':  'quezon'
-				'r':  'rajah'
-				's':  'sitio'
-				't':  'tuba'
-				'u':  'unggoy'
-				'v':  'vinzon'
-				'w':  'waray'
-				'x':  'xerex'
-				'y':  'yakal'
-				'z':  'zamora'
+				'a':  'alpa'         # Alpha
+				'b':  'betamax'      # Beta
+				'c':  'tsarlie'      # Charlie
+				'd':  'delta'        # Delta
+				'e':  'eko'          # Echo
+				'f':  'pakstrat'     # Foxtrot
+				'g':  'golp'         # Golf
+				'h':  'sogo'         # Hotel
+				'i':  'inja'         # India
+				'j':  'hulyeta'      # Juliet
+				'k':  'kilo'         # Kilo
+				'l':  'lima'         # Lima
+				'm':  'mikong'       # Mike
+				'n':  'nobyembre'    # November
+				'o':  'oskar'        # Oscar
+				'p':  'fafa'         # Papa
+				'q':  'kwekwek'      # Quebec
+				'r':  'romyo'        # Romeo
+				's':  'siyera-madre' # Sierra
+				't':  'tango'        # Tango
+				'u':  'uniporme'     # Uniform
+				'v':  'vic-n-joey'   # Victor
+				'w':  'whitecastle'  # Whiskey  
+				'x':  'xray'         # Xray
+				'y':  'yankee'       # Yankee
+				'z':  'dawn-zulueta' # Zulu
 
 		getPhonetics: (x) ->
 			if @get('dictionary')[x] then @get('dictionary')[x] else x
